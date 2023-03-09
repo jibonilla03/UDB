@@ -17,3 +17,13 @@ print(10 + 20)
 # Podemos separar los miles con un guion bajo para visualizarlo mejor
 # Python ignora los guiones bajos
 print(102_345_643)
+
+# Float = Flotantes = decimales
+print(1236.25)
+
+# Boolean = True and False
+# Observe que la primera letra es mayuscula
+print(True)
+print(False)
+## Es casado?
+## 9 < 8 = False > <= >=
