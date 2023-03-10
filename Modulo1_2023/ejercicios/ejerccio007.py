@@ -8,5 +8,14 @@ masa=float(input("Digite su peso en Kilogramos: "))
 #imc=masa/(estatura*estatura)
 imc=masa/pow(estatura,2)
 
-print(imc//1)
+print(round(imc/1,1))
 #print(int(imc))
+
+if imc > 30:
+    print("Obesidad")
+elif 24.9 < imc <= 29.9:
+    print("Sobrepeso")
+elif 18.5 < imc <= 24.9:
+    print("Rango normal")
+else:
+    print("Bajo peso")
