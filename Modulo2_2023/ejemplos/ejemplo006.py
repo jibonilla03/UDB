@@ -1,3 +1,4 @@
+# Running python -m tkinter from the command line should open a window demonstrating a simple Tk interface
 # Para crear una applicacion de escritorio importamos el modulo tkinter:
 import tkinter
 
