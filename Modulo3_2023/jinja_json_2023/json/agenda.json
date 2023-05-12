@@ -1,0 +1,12 @@
+[ 
+    { "id":1, 
+        "correo":"salvador@gmail.com", 
+        "nombre":"Salvador", 
+        "resumen":"Me gusta crear aplicaciones y diseñarlas", 
+        "profesion":"Desarrollador" }, 
+    { "id":2, 
+        "correo":"alejandro@gmail.com", 
+        "nombre":"Alejandro", 
+        "resumen":"Me gusta programar en Python :D", 
+        "profesion":"Desarrollador" }, 
+    { "id":3, "correo":"saraiba3@gmail.com", "nombre":"Sarai", "resumen":"Me gusta aprender Python", "profesion":"Desarrollador" }, { "id":4, "correo": "descamps@msn.com", "nombre": "Carlos", "resumen":"Me gusta salir a correr", "profesion":"Analista", }, { "id":5, "correo":"mkbrdler@me.com", "nombre":"Miguel", "resumen":"Me gusta analizar datos", "profesion":"Analista de Datos" }, { "id":6, "correo":"dennis@gmail.com", "nombre":"Dennis", "resumen":"Me gusta jugar videojuegos ", "profesion":"Analista Desarrollador " }, { "id": 7, "nombre": "Fernando", "correo": "fernando@dominio.xyz", "resumen": "Desarrollando apps en Flask", "profesion":"Desarollador", }, { "id":8, "correo":"elman@gmail.com", "nombre":"Elman", "resumen":"Me gusta aprender sobre tecnologia", "profesion":"Analista de sistemas"}, { "id":9, "correo":"frnky.kruz@gmail.com", "nombre":"Francisco", "resumen":"Me gusta crear aplicaciones y diseñarlas", "profesion":"Desarrollador" }, ]
