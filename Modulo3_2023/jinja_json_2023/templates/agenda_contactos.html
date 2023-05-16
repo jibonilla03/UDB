@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agenda</title>
+    </head>
+    <body>
+        {% for contacto in datos_agenda %}
+            <h1>{{ contacto["nombre"] }}</h1> 
+            <h2>{{ contacto["profesion"] }}</h2>
+            <p>{{ contacto["correo"] }}</p>
+            
+            <hr>
+        {% endfor %}
+        <footer>Copyright © {{anio}} - UDB Virtual</footer>
+    </body>
+</html>

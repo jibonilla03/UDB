@@ -2,9 +2,21 @@ from flask import Flask, render_template
 import random
 import datetime
 import requests
+import contacto
 
 app = Flask(__name__)
 
+url = "https://api.npoint.io/88bcfeb4049263321a59"
+response = requests.get(url)
+datos_agenda = response.json()
+lista_contactos = []
+
+@app.route("/agenda/<numero>")
+def ver_agenda():
+    for contacto in datos_agenda():
+
+
+    return render_template("agenda_contactos.html", datos_agenda=datos_agenda)
 
 @app.route("/invitado/<nombre>")
 def ver_json(nombre):
